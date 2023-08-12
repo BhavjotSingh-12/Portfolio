@@ -1,0 +1,232 @@
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.my-box{
+    background-color: #c4c4c451;
+    width: 400px;
+}
+@media screen and (min-Width:300px) and (max-width:600px) {
+    .my-box{
+        width:200px
+    }
+    .cpp{
+        width: 200px;
+    }
+    
+    
+}
+
+.Cpp {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 85%;
+    }
+}
+.html {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar1;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 95%;
+    }
+}
+.css {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar2;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar2 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+.js {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar3;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar3 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 75%;
+    }
+}
+.bootstrap {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar4;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar4 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+.tailwind {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar5;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar5 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+.react {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar6;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar6 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 75%;
+    }
+}
+.java {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar7;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar7 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+.github {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar8;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar8 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+.node {
+
+    width: 400px;
+    height: 10px;
+    background-color: #49def8;
+    animation-name: progressbar9;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar9 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+

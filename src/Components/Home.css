@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@500&display=swap');
+.Homecs{
+    background: url('../assets/back.jpg') no-repeat center center/cover;
+    opacity: 0.98;   
+    background-attachment: fixed;
+}
+.fontstyl{
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}

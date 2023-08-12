@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
+.Aboutcs {
+    background: url('../assets/back.jpg') no-repeat center center/cover;
+    opacity: 0.98;
+    background-attachment: fixed;
+}
+.fonts{
+
+    font-family: 'Work Sans', sans-serif;
+}
+#opac {
+    background: #000;
+    /* opacity: 0.6; */
+}
+
+.addimg {
+    background: url(../assets/Profile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}

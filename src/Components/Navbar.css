@@ -1,0 +1,22 @@
+.navbarcs{
+  background: url('../assets/back.jpg') no-repeat center center/cover;
+    opacity: 0.98;   
+    background-attachment: fixed;
+}
+.button{
+  position: relative;
+  overflow: hidden;
+}
+.button::after{
+  content:"";
+  display: block;
+  height: 4px;
+  width: 70%;
+  background-color: #49def8;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.button:hover::after{
+  transform: scale(1);
+}
