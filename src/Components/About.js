@@ -8,44 +8,44 @@ const About = () => {
   return (
     <div className='Aboutcs w-full text-[white] py-3'>
       <Navbar></Navbar>
-      <div className=' mx-[10%] my-[3%] bg-black rounded-[10px] opacity-90 fonts'>
-        <div className='m-[20px] p-6 text-[20px] '>
+      <div className=' md:mx-[10%] mx-4 my-[3%] bg-black rounded-[10px] opacity-90 fonts'>
+        <div className='md:m-[20px] m-[12px] p-6 text-[20px] '>
           <div>About</div>
-          <div className="flex flex-col md:flex-row mt-3">
+          <div className="flex flex-col md:justify-between lg:flex-row mt-3">
             <div>
-              <div className='h-[300px] md:h-[510px] w-[300px] md:w-[350px] addimg' />
+              <div className='h-[400px] md:h-[600px] lg-[510px] w-[200px] sm:w-[350px] md:w-[540px] lg:w-[350px] addimg' />
             </div>
-            <div className='ml-10'>
-              <h1 className='md:text-[40px] text-[25px] md:font-bold'>More About Me</h1>
-              <h3 className='text-[#49def8] font-bold'>Hello! I'm Bhavjot Singh</h3>
-              <div className='mt-2'>I am an engineering student in Computer Science Engineering from Maharaja Agrasen Institute of Technology ,GGSIPU.</div>
+            <div className='md:ml-10'>
+              <h1 className='md:text-[40px] text-[20px] md:font-bold'>More About Me</h1>
+              <h3 className='text-[#49def8] font-bold md:text-[20px] text-[15px]'>Hello! I'm Bhavjot Singh</h3>
+              <div className='mt-2 text-[15px] md:text-[20px] '>I am an engineering student in Computer Science Engineering from Maharaja Agrasen Institute of Technology ,GGSIPU.</div>
               <div className="flex flex-col md:flex-row mt-4 ">
                 <div>
-                  <div className="flex flex-col mt-4 mr-4 ">
+                  <div className="flex flex-col md:mt-4 md:mr-4 ">
                     <div className="flex flex-row">
-                      <TbArrowBigRightFilled className='mt-[6px] mr-2' color='#49def8' />
-                      <div>Birthday: 23 August 2002</div>
+                      <TbArrowBigRightFilled className='mt-[2px] md:mt-[6px] md:mr-2' color='#49def8' />
+                      <div className='text-[12px] mt-[4px] md:mt-0 md:text-[20px]'>Birthday: 23 August 2002</div>
                     </div>
                     <div className="flex flex-row">
-                      <TbArrowBigRightFilled className='mt-[6px] mr-2' color='#49def8' />
-                      <div>Degree: BTech CSE</div>
+                      <TbArrowBigRightFilled className='mt-[2px] md:mt-[6px] md:mr-2' color='#49def8' />
+                      <div className='text-[12px] mt-[4px] md:mt-0 md:text-[20px]'>Degree: BTech CSE</div>
                     </div>
                   </div>
                 </div>
                 <div >
                   <div className="flex flex-col mt-4 md:ml-[100px]">
                     <div className="flex flex-row">
-                      <TbArrowBigRightFilled className='mt-[6px] mr-2' color='#49def8' />
-                      <div>City: Haridwar</div>
+                      <TbArrowBigRightFilled className='mt-[2px] md:mt-[6px] md:mr-2' color='#49def8' />
+                      <div className='text-[12px] mt-[4px] md:mt-0 md:text-[20px]'>City: Haridwar</div>
                     </div>
                     <div className="flex flex-row">
-                      <TbArrowBigRightFilled className='mt-[6px] mr-2' color='#49def8' />
-                      <div>Email: bhavjot861@gmail.com</div>
+                      <TbArrowBigRightFilled className='mt-[2px] md:mt-[6px] md:mr-2' color='#49def8' />
+                      <div className='text-[12px] mt-[4px] md:mt-0 md:text-[20px]'>Email: bhavjot861@gmail.com</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='mt-5'>
+              <div className='mt-5 md:text-[20px] text-[16px]'>
                 I'm Bhavjot Singh, I'm a web developer proficient in HTML, CSS and JavaScript.
                 I have strong passion for React.js and love building websites with it.
                 My journey in web development has allowed me to blend innovation and technical
@@ -60,7 +60,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='mx-[10%] my-[3%] pb-[25px] bg-black rounded-[10px] opacity-90 fonts'>
+      <div className='md:mx-[10%] mx-4 my-[3%] bg-black rounded-[10px] opacity-90 fonts'>
         <Image />
       </div>
     </div>

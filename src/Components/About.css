@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 .Aboutcs {
     background: url('../assets/back.jpg') no-repeat center center/cover;
     opacity: 0.98;
     background-attachment: fixed;
-}
-.fonts{
-
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 #opac {
     background: #000;

@@ -8,15 +8,14 @@ img {
     background-color: #c4c4c451;
     width: 400px;
 }
-@media screen and (min-Width:300px) and (max-width:600px) {
+@media screen and (min-Width:300px) and (max-width:900px) {
     .my-box{
         width:200px
     }
     .cpp{
         width: 200px;
     }
-    
-    
+       
 }
 
 .Cpp {

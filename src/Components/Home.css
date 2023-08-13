@@ -3,6 +3,7 @@
     background: url('../assets/back.jpg') no-repeat center center/cover;
     opacity: 0.98;   
     background-attachment: fixed;
+    /* background: fixed; */
 }
 .fontstyl{
     font-family: 'Noto Sans Vithkuqi', sans-serif;
