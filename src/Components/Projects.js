@@ -7,7 +7,8 @@ import google from '../assets/google.jpg'
 import utube from '../assets/youtube.jpg'
 import utils from '../assets/utils.jpg'
 import Navbar from './Navbar'
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { AiOutlineLink, AiFillGithub } from 'react-icons/ai';
+
 const Projects = () => {
   return (
     <div className='projectcs w-full py-3'>
@@ -22,7 +23,7 @@ const Projects = () => {
               <div className='text '>
                 <div className='flex flex-row md:justify-center mt-[100px] ml-[20%]  md:ml-0 gap-2 md:gap-4'>
                   <a href="https://github.com/BhavjotSingh-12/Netflix-Clone"><AiFillGithub className='md:w-[45px] logos md:h-[45px]' /></a>
-                  <a href="https://bmy-flix.netlify.app/"> <AiFillLinkedin className='md:w-[45px] logos md:h-[45px]' /></a>
+                  <a href="https://bmy-flix.netlify.app/"> <AiOutlineLink className='md:w-[45px] logos md:h-[45px]' /></a>
                 </div>
                 <div className="content w-[500px] justify-center m-1 hidden md:block">
                   My-Flix is a fully responsive project built using only HTML and CSS.
@@ -36,7 +37,7 @@ const Projects = () => {
               <div className='text'>
                 <div className='flex flex-row md:justify-center mt-[100px] ml-[20%]  md:ml-0 gap-2 md:gap-4'>
                   <a href="https://github.com/BhavjotSingh-12/youtubeclone"><AiFillGithub className='md:w-[45px] logos md:h-[45px]' /></a>
-                  <a href="https://utubebhav.netlify.app/"> <AiFillLinkedin className='md:w-[45px] logos md:h-[45px]' /></a>
+                  <a href="https://utubebhav.netlify.app/"> <AiOutlineLink className='md:w-[45px] logos md:h-[45px]' /></a>
                 </div>
                 <div className="content w-[500px]  justify-between m-2 hidden md:block">
                   U-Tube is a fully responsive and functional frontend project, a clone of Youtube
@@ -52,7 +53,7 @@ const Projects = () => {
               <div className='text'>
                 <div className='flex flex-row md:justify-center mt-[100px] ml-[20%] md:ml-0 gap-2 md:gap-4'>
                   <a href="https://github.com/BhavjotSingh-12/launch"><AiFillGithub className='md:w-[45px] logos md:h-[45px]' /></a>
-                  <a href="https://launchpay.netlify.app/"> <AiFillLinkedin className='md:w-[45px] logos md:h-[45px]' /></a>
+                  <a href="https://launchpay.netlify.app/"> <AiOutlineLink className='md:w-[45px] logos md:h-[45px]' /></a>
                 </div>
                 <div className="content w-[500px] justify-between hidden md:block m-2">
                   Launch is a payment gateway landing page. Not responsive made with
@@ -65,7 +66,7 @@ const Projects = () => {
               <div className='text'>
                 <div className='flex flex-row md:justify-center mt-[100px] ml-[20%]  md:ml-0 gap-2 md:gap-4'>
                   <a href="https://github.com/BhavjotSingh-12/google-search-app"><AiFillGithub className='md:w-[45px] logos md:h-[45px]' /></a>
-                  <a href="https://google-clone-bhavjot.netlify.app/"> <AiFillLinkedin className='md:w-[45px] logos md:h-[45px]' /></a>
+                  <a href="https://google-clone-bhavjot.netlify.app/"> <AiOutlineLink className='md:w-[45px] logos md:h-[45px]' /></a>
                 </div>
                 <div className="content w-[500px] hidden md:block justify-between m-2">
                   Google Search is a Google clone made using ReactJs. A fully responsive
@@ -81,7 +82,7 @@ const Projects = () => {
               <div className='text'>
                 <div className='flex flex-row md:justify-center mt-[100px] ml-[20%] md:ml-0 gap-2 md:gap-4'>
                   <a href="https://github.com/BhavjotSingh-12/webd-project"><AiFillGithub className='md:w-[45px] logos md:h-[45px]' /></a>
-                  <a href="https://formaxb.netlify.app/"> <AiFillLinkedin className='md:w-[45px] logos md:h-[45px]' /></a>
+                  <a href="https://formaxb.netlify.app/"> <AiOutlineLink className='md:w-[45px] logos md:h-[45px]' /></a>
                 </div>
                 <div className="content w-[500px]  hidden md:block justify-between m-2">
                   Formax is a clone of Formax India. A non responsive site made using
@@ -94,7 +95,7 @@ const Projects = () => {
               <div className='text'>
                 <div className='flex flex-row md:justify-center mt-[100px] ml-[20%]  md:ml-0 gap-2 md:gap-4'>
                   <a href="https://github.com/BhavjotSingh-12/md:my-app"><AiFillGithub className='md:w-[45px] logos md:h-[45px]' /></a>
-                  <a href="https://textutilsb.netlify.app/"> <AiFillLinkedin className='md:w-[45px] logos md:h-[45px]' /></a>
+                  <a href="https://textutilsb.netlify.app/"> <AiOutlineLink className='md:w-[45px] logos md:h-[45px]' /></a>
                 </div>
                 <div className="content w-[500px] hidden md:block justify-between m-2">
                   Text-Utils is a ReactJS and Bootstrap website that provides user to
